@@ -1,4 +1,5 @@
 #include<iostream>
+#include<cmath>
  using namespace std;
  int main(){
  	int x,y,price=0,r=0,s[9]{0};
