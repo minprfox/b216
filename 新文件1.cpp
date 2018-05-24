@@ -2,7 +2,7 @@
 #include<cmath>
  using namespace std;
  int main(){
- 	int x, y, price=0, r=0, s[10] = {0};
+ 	int x, y, price=0, r=0, s[10] = {0}, z;
 
  	for (int i=0; i<9; i++){
  		cin >> x >> y;
@@ -60,7 +60,7 @@
  		r++;
  	if(s[9]+s[6]+s[3]==3)
  		r++;
- 	// µ²§ô 
+ 	// ÂµÂ²Â§Ã´ 
  		
  	cout << r << "  " << price;
  }
